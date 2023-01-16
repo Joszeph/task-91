@@ -1,4 +1,5 @@
-import EventEmitter from "eventemitter3";
+// import EventEmitter from "eventemitter3";
+import * as EventEmitter from 'eventemitter3'
 import Beat from "./Beat.js";
 
 export default class Application extends EventEmitter {
