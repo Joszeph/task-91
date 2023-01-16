@@ -13,8 +13,8 @@ export default class Application extends EventEmitter {
     this._beat = new Beat();
     this._beat.on(Beat.events.BIT, this._create.bind(this));
     this.lyrics = ["Ah", "ha", "ha", "ha", "stayin' alive", "stayin' alive"];
-    this.count = 0;
-    this.emit(Application.events.READY);
+    // this.count = 0;
+    // this.emit(Application.events.READY);
   }
 
   _create() {
